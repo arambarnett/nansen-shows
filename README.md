@@ -99,4 +99,6 @@ About $2.40 per episode on Monkeygun; skip the clip and music and it is $0.60.
 ## Credits
 
 Data by [Nansen](https://nansen.ai). Video rendering by [Monkeygun](https://monkeygun.com), HyperFrames render
-engine. Loops from Giphy or Pexels. Built by [tokenslop](https://tokenslop.fun). MIT.
+engine; the from-data call, authored scripts, async jobs and webhooks are documented at
+[monkeygunapi.mintlify.app](https://monkeygunapi.mintlify.app). Loops from Giphy or Pexels. Built by
+[tokenslop](https://tokenslop.fun). MIT.
