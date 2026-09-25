@@ -1,0 +1,19 @@
+{
+  "name": "nansen-shows",
+  "version": "0.1.0",
+  "description": "Turn Nansen on-chain intelligence into short videos: Smart Money Alert, Dumb Money vs Smart Money, Who Got Rich.",
+  "type": "module",
+  "private": true,
+  "bin": { "nansen-shows": "./src/cli.ts" },
+  "scripts": {
+    "shows": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT"
+}
