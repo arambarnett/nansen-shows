@@ -58,7 +58,8 @@ npx tsx src/cli.ts stats
 ```
 
 A render prints progress and, when done, the watch link and the MP4 URL, and saves the script next to it in
-`out/<videoId>.json`. Flags: `--chain arc|ethereum|base|solana|…` (default `robinhood`), `--no-clips` (skip
+`out/<videoId>.json`. A run of the `wallet` command above took 2 minutes 33 seconds from facts to MP4 and
+produced [this episode](https://monkeygun.com/w/vid-394?k=f86870175abac73400fb). Flags: `--chain arc|ethereum|base|solana|…` (default `robinhood`), `--no-clips` (skip
 the logo clip, saves $1), `--no-music`, `--loops pexels` (stock b-roll instead of Giphy), `--pack
 bold|cinematic|editorial|classic`, `--voice <ElevenLabs id>`.
 
